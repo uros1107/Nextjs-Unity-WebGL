@@ -43,7 +43,7 @@ export class EventSystem {
     eventSystems.push(this);
     // If we're running inside of a browser environment, some global properties
     // will be made available on the window allowing for Unity to communicate.
-    if (window !== undefined) {
+    if (typeof window !== 'undefined') {
       // Register the global dispatch method.
       if (window.dispatchReactUnityEvent === undefined) {
         window.dispatchReactUnityEvent = dispatchReactUnityEvent;
