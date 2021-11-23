@@ -1,5 +1,5 @@
 {
-  "name": "react-unity-webgl",
+  "name": "next-unity-webgl",
   "version": "8.6.0",
   "description": "React Unity WebGL provides an easy solution for embedding Unity WebGL builds in your React application, with two-way communication between your React and Unity application with advanced API's.",
   "keywords": [
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jeffreylanters/react-unity-webgl.git"
+    "url": "git://github.com/topdev0205/React-Unity-WebGL-Fix.git"
   },
   "scripts": {
     "start": "tsc --watch",
