@@ -3,7 +3,7 @@
 /*.tgz
 
 # Production
-/distribution
+
 
 # System
 .DS_Store
